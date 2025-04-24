@@ -5,7 +5,7 @@
 * The __2D Navier-Stokes Equations__ are discretisised via the __Finite Volume Method__. 
 * The __Velocity__ and __Pressure__ matrices are solved via the __Gauss-Seidel__ Iterative Method with __Red-Black Ordering__ to help accelerate __convergence__.
 * An __implicit time integration scheme__ is also used.
-* Note: utilising __Red-Black Ordering__ will allow us to __parallelise__ the solver with e.g. __OpenMP__
+* Note: utilising __Red-Black Ordering__ will allow us to __parallelise__ the solver with e.g. __OpenMP__ should we want to.
 * The resulting data (`.dat/.csv`) will be plotted via a `Python script`. I will also attempt to make an `animation` of the __Velocity__ and __Pressure__ fields.
 
 ## Requirements
@@ -14,7 +14,8 @@
 * Developed with `Sublime Text`.
 * `CMake`.
 * `Python 3.7.6` for running the `visualisation script`.
-* `matplotlib`, `pandas`, `NumPy` and `ffmpeg`.
+* `matplotlib`, `pandas`, `NumPy` and `ffmpeg`. `ffmpeg` allows you to save animations as `mp4` files.
+* If you don't have the above: `$ pip install matplotlib pandas numpy ffmpeg-python`.
 * `Eigen Template Library`.
 
 ## Model 
