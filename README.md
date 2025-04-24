@@ -11,7 +11,9 @@
 * Developed on `Linux (Ubuntu 20.04)`.
 * Developed with `Sublime Text`.
 * `CMake`.
+* `Python 3.7.6` for running the `visualisation script`.
 
 ## Model 
-
+* TODO
 ## Getting and Running the Software
+* TODO
