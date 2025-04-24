@@ -14,6 +14,8 @@
 * Developed with `Sublime Text`.
 * `CMake`.
 * `Python 3.7.6` for running the `visualisation script`.
+* `matplotlib`, `pandas` and `NumPy`.
+* `Eigen Template Library`.
 
 ## Model 
 * TODO
